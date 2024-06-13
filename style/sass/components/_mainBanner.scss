@@ -159,7 +159,7 @@
     bottom: 10px;
     inset-inline-end: unset;
     left: 50%;
-    margin-left: -130px;
+    margin-left: -135px;
     width: 270px;
     margin-top: unset;
     top: unset;
@@ -217,3 +217,9 @@
   }
 }
 
+@media screen and (max-width : 360px) {
+  .hero-mobile{
+    width: 240px;
+    margin-left: -120px;
+  }
+}
